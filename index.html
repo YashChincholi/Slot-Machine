@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot machine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slot">
+      <div id="slot-screen">
+        <ul class="reels">
+          <li class="reel"><img src="/images/1.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/2.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/3.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/4.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/5.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/6.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/7.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/8.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/9.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/10.png" alt="slot-image" /></li>
+        </ul>
+
+        <ul class="reels">
+          <li class="reel"><img src="/images/4.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/2.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/8.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/3.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/7.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/10.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/1.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/6.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/5.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/9.png" alt="slot-image" /></li>
+        </ul>
+
+        <ul class="reels">
+          <li class="reel"><img src="/images/2.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/10.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/1.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/5.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/4.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/6.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/8.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/3.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/9.png" alt="slot-image" /></li>
+          <li class="reel"><img src="/images/7.png" alt="slot-image" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="stop-btn"
+      disabled="true"
+      data-val="0"
+    ></button>
+
+    <button
+      type="button"
+      class="stop-btn"
+      disabled="true"
+      data-val="1"
+    ></button>
+
+    <button
+      type="button"
+      class="stop-btn"
+      disabled="true"
+      data-val="2"
+    ></button>
+
+    <button id="start-btn" class="btn-start">Start!</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
